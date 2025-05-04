@@ -7,8 +7,6 @@ export default defineComponent({
   setup() {
     const links = [
       { label: 'Home', url: '/' },
-      { label: 'Projects', url: '/projects' },
-      { label: 'Development', url: '/development' },
     ]
 
     return { links }

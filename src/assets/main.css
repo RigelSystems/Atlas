@@ -1,0 +1,36 @@
+.hero-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+:root {
+    --theme-color: #846ae2;
+}
+
+.momentum-section {
+    margin-bottom: 3rem;
+}
+
+.momentum-section .n-hero-section__subtitle {
+    color: #88bdb9 !important;
+}
+
+.momentum-section .n-button {
+    background-color: #88bdb9 !important;
+}
+
+.gaia-section .n-hero-section__subtitle {
+    color: #a1cf6e !important;
+}
+
+.gaia-section .n-button {
+    background-color: #a1cf6e !important;
+}
+
+.celestial-section .n-hero-section__subtitle {
+    color: #ee7e6b !important;
+}
+
+.celestial-section .n-button {
+    background-color: #ee7e6b !important;
+}
