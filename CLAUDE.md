@@ -1,0 +1,54 @@
+Components
+NButton - Props: label (string, required), primary (boolean, default: true), size (string, default: 'medium'), colour (string), backgroundColor (string), href (string). Events: click. Slots: default
+
+NCard - Props: title (string, required), subtitle (string), content (string), actionButtons (array). Slots: content, actions
+
+NCircleProgress - Props: current (number, required), total (number, required), size (number, default: 120), strokeWidth (number), progressColor (string), trackColor (string), fontSize (string)
+
+NColourPicker - Props: colors (array), allowCustom (boolean, default: true), modelValue (string), label (string). Events: update:modelValue
+
+NDashboardTile - Props: title (string, required), icon (string, required), value (string, required), bottomText (string, required), colour (string)
+
+NDataGrid - Props: url (string, required), method (string, default: 'GET'), params (object), accessToken (string), search (boolean), sortable (boolean), pageSize (number), searchableFields (array), sortableFields (array)
+
+NDropdown - Props: label (string), content (string), chevron (boolean, default: true). Slots: label, content
+
+NHeroSection - Props: title (string), subtitle (string), content (string), actionButtons (array), layout (string, default: 'center'). Slots: image
+
+NModal - Props: modelValue (boolean, v-model), title (string), buttonLabel (string). Events: update:modelValue, open, close. Slots: trigger, header, default, footer
+
+NNavigationBar - Props: links (array), mobileBottomLinks (array), showMobileBottomLinks (boolean), currentPath (string). Slots: logo, user
+
+NNotification - Props: message (string, required), time (string, required), actionButtons (array)
+
+NNotificationList - Props: url (string, required), method (string), params (object), accessToken (string)
+
+NOrderList - Props: items (array, required), orderKey (string), updateUrl (string, required), loading (boolean), modelName (string, required), accessToken (string). Slots: default
+
+NPaint - Props: gridX (number, default: 8), gridY (number, default: 8), pixelData (array). Events: update:pixelData, save
+
+NPaintDisplay - Props: pixelData (array), size (number, default: 12)
+
+NPill - Props: label (string, required), color (string, default: 'default')
+
+NRow - Props: cols (object, required), gap (string), title (string), subtitle (string). Slots: default
+
+NScrollArrow - No props, events, or slots
+
+NSelect - Props: label (string, required), value (string), options (array, required), placeholder (string). Events: update:value
+
+NSelectInputFromRequest - Props: url (string, required), valueKey (string, required), name (string, required), label (string), multiple (boolean), modelValue (string|array), accessToken (string, required), method (string), headers (object). Events: update:modelValue
+
+NTab - Props: label (string, required), active (boolean). Events: click
+
+NTabPanel - Props: index (number, required), activeTab (number, required). Slots: default
+
+NTabPreview - No props, events, or slots
+
+NTabs - Slots: tabs (receives activeTab and setActiveTab), default (receives activeTab)
+
+NTextInput - Props: label (string, required), value (string), placeholder (string). Events: update:value
+
+NTimeInput - Props: label (string, required), value (string), placeholder (string). Events: update:value
+
+NTimeline - Props: startDateTime (string, required), endDateTime (string, required), minuteInterval (number), items (array, required)

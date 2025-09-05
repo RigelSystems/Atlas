@@ -7,6 +7,7 @@ export default defineComponent({
   setup() {
     const links = [
       { label: 'Home', url: '/' },
+      { label: 'Info', url: '/info' },
     ]
 
     return { links }
@@ -24,5 +25,9 @@ export default defineComponent({
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
+  }
+
+  .n-navigation-bar {
+    height: 30px !important;
   }
 </style>
